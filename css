@@ -7,6 +7,8 @@
  * @source
  */
  
+ @import url(https://discord-extensions.github.io/macos-titlebar/src/source.css)
+
  :root{
 	--opacity:.5;
 	--c:hsl(216deg ,7% ,14%,var(--opacity));
