@@ -1,0 +1,233 @@
+/**
+ * @name library
+ * @description A cozy, library themed theme.
+ * @version 1.0.0
+ * @website WIP currently building it
+ * @author NicoLovesCode (github) Tiramisu#9193 (discord)
+ * @source
+ */
+ 
+ :root{
+	--opacity:.5;
+	--c:hsl(216deg ,7% ,14%,var(--opacity));
+	--primary-bg:linear-gradient(var(--c),var(--c));
+	--bg:
+		linear-gradient(hsla(0, 0%, 0%, .5),hsla(0, 0%, 0%, .5)),
+		url("https://wallpaperaccess.com/full/1223169.jpg"),
+		linear-gradient( 110.1deg,  rgba(30,2,83,1) 44.2%, rgba(198,55,160,1) 138.2% );
+	--gap:5px;
+}
+
+/* BetterFormattingRedux PLUGIN */
+
+.bf-toolbar div.bf-arrow {
+	bottom:15px;
+}
+
+#bfredux:hover > div.bf-arrow {
+	bottom:0px;
+}
+
+/* END BetterFormattingRedux PLUGIN*/
+#app-mount {
+	background-image: var(--bg)!important;
+	background-size: cover ;
+	background-position: center ;
+}
+
+.app-2CXKsg,
+.bg-1QIAus,
+.layers-OrUESM,
+.wrapper-1_HaEi,
+.scroller-3X7KbA,
+.container-2o3qEW,
+.chat-2ZfjoI, 
+.members-3WRCEx>div,
+.container-1NXEtd,
+.scrollableContainer-15eg7h.webkit-QgSAqd,
+.contentRegion-3HkfJJ,
+.scroller-WSmht3,
+.privateChannels-oVe7HL,
+.layer-86YKbF,
+.standardSidebarView-E9Pc3j,
+.contentRegionScroller-2_GT_N,
+.titleContainer-3fPic2,
+.header-JUTO-g{
+	background:transparent;
+}
+
+.messagesWrapper-RpOMA3,
+.members-3WRCEx,
+.expandedFolderBackground-1kSAf6,
+.sidebarRegionScroller-FXiQOh,
+.searchBar-3TnChZ,
+.contentRegion-3HkfJJ,
+.wrapper-1_HaEi,
+.theme-dark .container-2cd8Mz{
+	background: var(--primary-bg) !important;
+}
+
+
+.panels-3wFtMD,.container-1-ERn5.clickable-vvKY2q{
+	background: var(--primary-bg)!important;
+}
+.container-ZMc96U.themed-Hp1KC_,.channelTextArea-1FufC0 {
+    background: var(--primary-bg)!important;
+}
+
+/* Windows titlebar */
+
+.typeWindows-2-g3UY {
+	background: var(--primary-bg);
+	margin:var(--gap) var(--gap) 0 var(--gap);
+	padding:10px;
+	border-radius:5px;
+}
+.wordmarkWindows-2dq6rw {
+    position: static;
+    order:1;
+	margin-right:auto;
+	padding:0;
+    color: var(--text-muted);
+}
+
+.winButtonClose-3Q8ZH5 {
+    color: #fff;
+    background: var(--status-danger);
+}
+
+.winButtonMinMax-3RsPUg:hover {
+    background: dodgerblue;
+    color: var(--interactive-hover);
+}
+
+.winButtonMinMax-3RsPUg:hover {
+    background: dodgerblue;
+    color: var(--interactive-hover);
+}
+
+/* END Windows titlebar */
+
+/* Scrollbar */
+::-webkit-scrollbar {
+	width:1px !important;
+	background: transparent !important;
+}
+::-webkit-scrollbar-thumb {
+	background: orange!important;
+}
+
+/* END Scrollbar */
+
+.tree-3agP2X{
+	padding-top:10px;
+}
+
+.chatContent-3KubbW,
+.sidebar-1tnWFu,
+.wrapper-1_HaEi{
+	margin: 0 var(--gap) 0 0;
+}
+
+.wrapper-1_HaEi,
+.contentRegion-3HkfJJ{
+	border-radius:5px;
+}
+.app-3xd6d0 {
+	margin:var(--gap);
+}
+
+ .sidebar-1tnWFu{
+	background: var(--primary-bg);
+	border-radius: 5px !important;
+}
+.mention-3XBnnZ,
+.nowPlayingColumn-1eCBCN{
+  display: none;
+}
+
+.form-3gdLxP {
+    flex-shrink: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 8px;
+	background: var(--primary-bg);
+}
+.children-3xh0VB:after,
+.form-3gdLxP:before {
+    content: none;
+}
+
+.channelTextArea-1VQBuV {
+    position: relative;
+    width: 100%;
+    text-indent: 0;
+	padding-right: 0px;
+}
+
+.form-3gdLxP {
+    border-radius:5px ;
+}
+
+.inner-NQg18Y.sansAttachButton-1ERHue{
+	padding-right:8px;
+}
+
+.members-3WRCEx.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN,.messagesWrapper-RpOMA3{
+	border-radius:0 0 5px 5px;
+}
+
+
+section.container-ZMc96U.themed-Hp1KC_{
+	border-radius:5px 5px 0 0;
+}
+
+
+[aria-label=" (channel)"] .messagesWrapper-RpOMA3,[aria-label=" (channel)"] .form-3gdLxP{
+	margin-right:calc(-1 * var(--gap));
+}
+
+/* ======================== */
+/* ======== Settings ====== */
+/* ======================== */
+
+.layer-86YKbF.baseLayer-W6S8cY.stop-animations[aria-hidden=true]{
+	display:none;
+}
+.layer-86YKbF[aria-hidden=true],
+#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div:nth-child(2) > .standardSidebarView-E9Pc3j{
+	background: transparent !important;
+}
+
+.sidebarRegion-1VBisG{
+	margin:0 var(--gap) 0 0;
+}
+
+.sidebar-nqHbhN,
+.toolsContainer-25FL6V,
+.contentColumnDefault-3eyv5o{
+    padding-top: 30px ;
+}
+
+.sidebarRegionScroller-FXiQOh,.contentRegionShownSidebar-fHXkEg{
+	border-radius:5px;
+}
+
+/* =============================== */
+/* ======== Server Settings ====== */
+/* =============================== */
+
+.contentWidth-3aWel5{
+	height:100%;
+	display: flex;
+    flex-direction: column;
+}
+
+.scroller-14hecM{
+	overflow:unset !important;
+}
+
+.permissionsWrapper-34gbP6{
+	overflow: hidden scroll;
+	height: 100%;
+}
