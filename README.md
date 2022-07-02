@@ -30,3 +30,5 @@ change channel colors - find the code - ```
    <p>Updates will be posted in https://github.com/NicoLoveCode/Library.theme.css until i finish my website</p>
    
                                            
+<p>any questions pls dm Tiramisu#9193</p>
+<p>i have not tested any plugins with this theme, but i assure you they will problay work</p>
