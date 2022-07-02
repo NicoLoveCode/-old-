@@ -25,6 +25,8 @@ change channel colors - find the code - ```
    
    <h1> other </h1>
    
-   <h4> mac os titlebar  - https://github.com/maenDisease/BetterDiscordStuff/blob/main/Themes/Solana/addon/mac-titlebar.css </h4>
+   <h4> mac os titlebar  - https://github.com/maenDisease/BetterDiscordStuff/blob/main/Themes/Solana/addon/mac-titlebar.css </h4><br><br><br><br><br><br>
+   
+   <p>Updates will be posted in https://github.com/NicoLoveCode/Library.theme.css until i finish my website</p>
    
                                            
